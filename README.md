@@ -34,7 +34,7 @@ The automation script performs the following tasks:
 - Selenium WebDriver
 
 ## Project Structure
-- `AmazonE2Estep.java`: Contains step definitions for the Cucumber features.
+- `AmazonE2Estep.java`: Contains step definitions for the Cucumber features which is present inside `src/test/java/org/step`.
 - `AmazonE2E.feature`: Cucumber feature file containing the scenarios to be automated.
 
 ## Detailed Explanation of Test Methods
