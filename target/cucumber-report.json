@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-19T04:46:35.606Z",
+        "line": 3,
+        "name": "Filter and add product to cart",
+        "description": "",
+        "id": "amazon-end-to-end-shopping;filter-and-add-product-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4528406500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Amazon home page",
+            "match": {
+              "location": "AmazonE2Estep.openAmazonWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29518886700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Fashion and  then to Mens",
+            "match": {
+              "location": "AmazonE2Estep.navigateToFashion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2402511600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I filter products by price range ₹1,000 - ₹5,000",
+            "match": {
+              "location": "AmazonE2Estep.filterByPriceRange()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2075262700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select brands Allen Solly and Puma",
+            "match": {
+              "location": "AmazonE2Estep.selectBrands()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1114408100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the number of search results",
+            "match": {
+              "location": "AmazonE2Estep.verifySearchResults()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7252318300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I add the second product to cart",
+            "match": {
+              "location": "AmazonE2Estep.addSecondProductToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212589600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify the cart count has increased",
+            "match": {
+              "location": "AmazonE2Estep.verifyCartCount()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon End-to-End Shopping",
+    "description": "",
+    "id": "amazon-end-to-end-shopping",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/amazone2e.feature",
+    "tags": []
+  }
+]

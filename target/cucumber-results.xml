@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.10742">
+    <testcase classname="Amazon End-to-End Shopping" name="Filter and add product to cart" time="47.10742">
+        <system-out><![CDATA[Given I am on the Amazon home page..........................................passed
+When I navigate to Fashion and  then to Mens................................passed
+And I filter products by price range ₹1,000 - ₹5,000........................passed
+And I select brands Allen Solly and Puma....................................passed
+Then I verify the number of search results..................................passed
+And I add the second product to cart........................................passed
+And I verify the cart count has increased...................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
