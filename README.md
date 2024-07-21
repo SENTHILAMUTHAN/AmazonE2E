@@ -76,4 +76,4 @@ The automation script performs the following tasks:
 
 
 ## Conclusion
-This project demonstrates the use of Selenium WebDriver and Cucumber for automating end-to-end scenarios on the Amazon website. The implementation includes best practices such as the Page Object Model design pattern and proper wait mechanisms to ensure reliable and maintainable test scripts.
+This project demonstrates the use of Selenium WebDriver and Cucumber for automating end-to-end scenarios on the Amazon website. 
